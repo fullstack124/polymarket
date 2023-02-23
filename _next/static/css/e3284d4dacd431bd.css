@@ -1,0 +1,20 @@
+.privacy_container__dUV49 {
+    align-items: center;
+    background-color: #fcfcfc;
+    border: none;
+    display: block;
+    height: 85vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 816px
+}
+
+@media screen and (max-width:1017px) {
+    .privacy_container__dUV49 {
+        width: calc(100vw + 140px);
+        height: calc(100vh - 150px);
+        overflow-x: hidden;
+        transform: translateX(-70px);
+        margin: 0
+    }
+}
