@@ -1,0 +1,72 @@
+.side_content{
+    display: flex;
+}
+
+#sidebar{
+    width: 250px;
+    height: 100vh;
+    box-shadow: 6px 6px 6px -1px #cbcbcb;
+    padding: 20px 10px;
+    
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#sidebar .dropdown a:hover{
+    background-color: rgb(216, 213, 213);
+    border-radius: 10px;
+}
+.content{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+.nav-item {
+    margin: 0 auto;
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+    color: #ab73e2;
+    border-top: 1px solid #dadada;
+    border-collapse: collapse;
+  }
+  .nav-item:nth-child(even) {
+    background: #fafafa;
+  }
+  .wobble {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eee;
+    transition: all 0.3s;
+  }
+  .nav-item:hover {
+    cursor: pointer;
+  }
+  .nav-item:hover > .wobble {
+    width: 87%;
+  }
+  .nav-item > div > div {
+    transition: all 0.3s;
+  }
+  .nav-item > div > div:hover {
+    color: #da4453;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .capitalise {
+    text-transform: capitalize;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  
